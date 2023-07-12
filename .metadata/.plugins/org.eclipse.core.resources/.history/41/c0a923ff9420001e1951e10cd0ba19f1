@@ -1,0 +1,14 @@
+package com.playsong.generic;
+
+
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class PlayList {
+	@Test
+	public void playSong() {
+		WebDriverManager.chromedriver().setup();
+	}
+
+}

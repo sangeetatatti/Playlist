@@ -1,0 +1,28 @@
+package com.playsong.testscript;
+
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class Songs {
+	@Test
+	public void songS1() {
+		Reporter.log("songS1",true);
+	}
+
+	@Test
+	public void songS2() {
+		Reporter.log("songS2",true);
+	}
+	
+	@Test
+	public void songS3() {
+		Reporter.log("songS3",true);
+	}
+	
+	@Test
+	public void songS4() {
+		Reporter.log("songS4",true);
+	}
+	
+	
+}
